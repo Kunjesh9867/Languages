@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif;
+  font-weight: bold;
+  /* border: 5px solid black; */
+}
+
+.h1-heading{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: palegoldenrod;
+  position: relative;
+  font-size: 20px;
+  padding: 5px
+}
+
+.h1-heading::before {
+  content: "SALE";
+  font-size: 12px;
+  padding: 5px;
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  color: #fff;
+  width: 40px;
+}
+
+.h1-heading::after {
+  content: "";
+  font-size: 12px;
+  padding: 5px;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  color: #fff;
+  width: 40px;
+}
+.shipping{
+  text-transform: uppercase;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.price{
+  font-size: 23px;
+  margin-bottom: 5px;
+
+}
+
+.ready{
+  margin-bottom: 10px;
+}
+
+
+a:link{
+  color: black;
+  /* background-color: brown; */
+  /* padding-bottom: 50px; */
+  /* display: inline-block; */
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul {
+  list-style: square;
+}
+
+.cart-btn{
+  font-size: 20px;
+  color: #fff;
+  background-color: black;
+  border: 0px ;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.cart-btn:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.container {
+  background-color: aqua;
+  width: 50%;
+  border: 5px solid;
+  margin:30px auto;
+}
+
+h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.color {
+  padding: 10px 0;
+  background-color: #000;
+  height: 4px;
+  width: 20px;
+}

@@ -16,7 +16,7 @@ HTML consists of elements that describe different types of content: paragraphs, 
 
 In HTML, each element is made up of 3 parts:
 
-The opening tag
+The opening tag 
 The closing tag
 The actual element
 You can learn more at the MDN Web Docs.
@@ -25,10 +25,6 @@ Why should you learn HTML?
 
 There are countless reasons for learning the fundamental language of the web. Here are 5 of them:
 
-To be able to use the fundamental web dev language
-To hand-craft beautiful websites instead of relying on tools like Worpress or Wix
-To build web applications
-To impress friends
-To have fun 😃
+
 
 Hopefully you learned something new here. See you next time!

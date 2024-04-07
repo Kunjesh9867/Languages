@@ -317,7 +317,7 @@ footer {
   clear: both;
 }
 */
-
+/* 
 .main-header {
   display: flex;
   align-items: center;
@@ -356,27 +356,54 @@ footer {
   font-weight: normal;
   font-style: italic;
 
-}
+} */
 
 
 
 
 
-aside {
-  /* NO */
-  /* width: 300px; */
+/* aside { */
+/* NO */
+/* width: 300px; */
 
-  flex: 0 0 300px;
+/* flex: 0 0 300px; */
 
-}
-
+/* } */
+/* 
 article {
   flex: 1;
-  /* flex: 0 0 825px; */
 }
 
 .row {
   display: flex;
   gap: 75px;
   margin-bottom: 0;
+} */
+
+/** CSS Grid */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  align-items: start;
+}
+
+
+.main-header {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+article {
+  /* width: 300px; */
+  margin-bottom: 0;
+}
+
+aside {
+  width: 300px;
+
+}
+
+footer {
+  grid-column: 1 / -1;
 }
