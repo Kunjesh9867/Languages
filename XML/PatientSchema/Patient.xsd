@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.kunjeshramani.org/Patient" 
+		xmlns:tns="http://www.kunjeshramani.org/Patient" 
+		elementFormDefault="qualified">
+		
+		
+		<element name="Patient" type="tns:Patient"/> <!-- Root element -->
+		
+		<complexType name="Patient">
+			<sequence>
+				<element name="name" type="tns:String15Chars"> </element>
+				<element name="age" type="int"> </element>
+				<element name="email" type="string" minOccurs="0"></element>
+				<element name="gender" type="tns:Gender"> </element>
+				<element name="phone" type="string" maxOccurs="3"></element>
+				<element name="paymentType" type="tns:PaymentType" minOccurs="1"></element>
+			</sequence>
+			
+			<attribute name="id" type="tns:Id" use="required"></attribute>
+			
+		</complexType>
+		
+		
+		<!-- Adding restrictions to the ID -->
+		<simpleType name="Id">
+			<restriction base="int">
+				<pattern value="[0-9]*"></pattern>
+			</restriction>
+		</simpleType>
+		
+		
+		
+		<!-- Simple Type for 15 Character string -->
+		<simpleType name="String15Chars">
+			<restriction base="string">
+			
+				<maxLength value="15"></maxLength>
+				
+
+			</restriction>
+		</simpleType>
+		
+		
+		<!-- Simple Type for Gender(M/F) -->
+		<simpleType name="Gender">
+			<restriction base="string">
+				<enumeration value="M"></enumeration>
+				<enumeration value="F"></enumeration>
+			</restriction>
+		</simpleType>
+		
+		
+		
+		<complexType name="PaymentType">
+			<choice>
+				<element name="cash" type="decimal"></element>
+				<element name="insurance" type="tns:Insurance"></element>
+			</choice>
+		</complexType>
+		
+		<complexType name="Insurance">
+			<all>
+				<element name="provider" type="string"></element>
+				<element name="limit" type="decimal"></element>
+			</all>
+		</complexType>
+		
+</schema>

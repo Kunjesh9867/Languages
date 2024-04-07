@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DriversLicence status='active'>
+	<Number>12345</Number>
+	<!-- This is the first name of a person -->
+	<FirstName>Kunjesh</FirstName>
+	<LastName>Ramani</LastName>
+	<DateOfBirth>27/may/2000</DateOfBirth>
+	<![CDATA[
+		<DateOfBirth>27/may/2000</DateOfBirth>
+	]]>
+	<VehicleType>Car</VehicleType>
+	<DateOfIssue>11/may/2022</DateOfIssue>
+	<ExpiryDate>11/may/2032</ExpiryDate>
+	<Photo location="servername/filename"></Photo>
+	 
+	
+	<Address>
+		<street>Steven Drive</street>
+		<city>King of Prussia</city>
+		<state>PA</state>
+		<country>USA</country>
+		<zipcode>19406</zipcode>
+	</Address>
+	
+</DriversLicence> 

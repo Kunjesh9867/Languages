@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:reservation
+	xmlns:tns="http://www.bharathairlines.com/Reservation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.bharathairlines.com/Reservation reservation.xsd">
+
+	<flight>
+		<flightNumber>flightNumber</flightNumber>
+		<operatingAirlines>US</operatingAirlines>
+		<arrivalCity>arrivalCity</arrivalCity>
+		<dateOfDeparture>2001-01-01</dateOfDeparture>
+		<estimatedTimeOfDeparture>12:00:00</estimatedTimeOfDeparture>
+	</flight>
+
+
+	<passenger>
+		<lastname>lastname</lastname>
+		<firstname>firstname</firstname>
+		<middlename>middlename</middlename>
+		<email>email</email>
+		<phone>1234567890</phone>
+	</passenger>
+
+
+</tns:reservation>

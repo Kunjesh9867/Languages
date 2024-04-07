@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.kunjeshramani.org/Patient" 
+		xmlns:tns="http://www.kunjeshramani.org/Patient" 
+		elementFormDefault="qualified">
+		
+		
+		<complexType name="PaymentType">
+			<choice>
+				<element name="cash" type="decimal"></element>
+				<element name="insurance" type="tns:Insurance"></element>
+			</choice>
+		</complexType>
+		
+		<complexType name="Insurance">
+			<all>
+				<element name="provider" type="string"></element>
+				<element name="limit" type="decimal"></element>
+			</all>
+		</complexType>
+		
+</schema>

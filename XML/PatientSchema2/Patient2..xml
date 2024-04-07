@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Patient xmlns:tns="http://www.kunjeshramani.org/Patient" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kunjeshramani.org/Patient Patient.xsd ">
+  <tns:name>Elon Mush</tns:name>
+  <tns:age>52</tns:age>
+  <tns:gender>M</tns:gender>
+  <tns:phone>7896541230</tns:phone>
+  <tns:paymentType>
+    <tns:cash>8000</tns:cash>
+  </tns:paymentType>
+</tns:Patient>

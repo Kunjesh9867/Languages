@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:event id="111111" xmlns:tns="http://www.eventmanagement.com/event" xmlns:tns1="http://www.eventmanagement.com/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eventmanagement.com/event event.xsd ">
+  <tns:name>tns:name</tns:name>
+  <tns:description>tns:description</tns:description>
+  <tns:ticketPrice>0.0</tns:ticketPrice>
+  <tns:startTime>2001-12-31T12:00:00</tns:startTime>
+  <tns:endTime>2001-12-31T12:00:00</tns:endTime>
+  <tns:organizer id="111111">
+    <tns:name>Kunjesh</tns:name>
+    <tns:email>kunjesh@hotmail.com</tns:email>
+    <tns:phone>1234567890</tns:phone>
+  </tns:organizer>
+  <tns:venue id="111111">
+    <tns:name>Aryab</tns:name>
+    <tns:street>tns:street</tns:street>
+    <tns:city>tns:city</tns:city>
+    <tns:state>tns:state</tns:state>
+    <tns:country>tns:country</tns:country>
+    <tns:zipcode>tns:zipcode</tns:zipcode>
+  </tns:venue>
+  <tns:participant id="111111">
+    <tns:name>Kunjesh</tns:name>
+    <tns:email>kunjesh@hotmail.com</tns:email>
+    <tns:phone>1234567890</tns:phone>
+  </tns:participant>
+  <tns:participant id="111111">
+    <tns:name>Aryan</tns:name>
+    <tns:email>aryan@hotmail.com</tns:email>
+    <tns:phone>0987654321</tns:phone>
+  </tns:participant>
+  <tns:participant id="111111">
+    <tns:name>Ansh</tns:name>
+    <tns:email>ansh@gmail.com</tns:email>
+    <tns:phone>4563217890</tns:phone>
+  </tns:participant>
+</tns:event>

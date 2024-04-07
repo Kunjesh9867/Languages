@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_Udemy.iml" filepath="$PROJECT_DIR$/Java_Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-1/Section-1.iml" filepath="$PROJECT_DIR$/Section-1/Section-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-10/Section-10.iml" filepath="$PROJECT_DIR$/Section-10/Section-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-11/Section-11.iml" filepath="$PROJECT_DIR$/Section-11/Section-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-12 = Inheritance/Section-12 = Inheritance.iml" filepath="$PROJECT_DIR$/Section-12 = Inheritance/Section-12 = Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-13/Section-13.iml" filepath="$PROJECT_DIR$/Section-13/Section-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-14/Section-14.iml" filepath="$PROJECT_DIR$/Section-14/Section-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-15/Section-15.iml" filepath="$PROJECT_DIR$/Section-15/Section-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-16/Section-16.iml" filepath="$PROJECT_DIR$/Section-16/Section-16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-18/Section-18.iml" filepath="$PROJECT_DIR$/Section-18/Section-18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-19/Section-19.iml" filepath="$PROJECT_DIR$/Section-19/Section-19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-2/Section-2.iml" filepath="$PROJECT_DIR$/Section-2/Section-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-20/Section-20.iml" filepath="$PROJECT_DIR$/Section-20/Section-20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-21/Section-21.iml" filepath="$PROJECT_DIR$/Section-21/Section-21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-22/Section-22.iml" filepath="$PROJECT_DIR$/Section-22/Section-22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-5/Section-5.iml" filepath="$PROJECT_DIR$/Section-5/Section-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-6/Section-6.iml" filepath="$PROJECT_DIR$/Section-6/Section-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-7/Section-7.iml" filepath="$PROJECT_DIR$/Section-7/Section-7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-8/Section-8.iml" filepath="$PROJECT_DIR$/Section-8/Section-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section-9/Section-9.iml" filepath="$PROJECT_DIR$/Section-9/Section-9.iml" />
+    </modules>
+  </component>
+</project>

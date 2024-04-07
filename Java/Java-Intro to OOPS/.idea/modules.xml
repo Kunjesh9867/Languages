@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-Intro to OOPS.iml" filepath="$PROJECT_DIR$/Java-Intro to OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_A1/Java_A1.iml" filepath="$PROJECT_DIR$/Java_A1/Java_A1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_A2/Java_A2.iml" filepath="$PROJECT_DIR$/Java_A2/Java_A2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniExercise2/MiniExercise2.iml" filepath="$PROJECT_DIR$/MiniExercise2/MiniExercise2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniExercise3/MiniExercise3.iml" filepath="$PROJECT_DIR$/MiniExercise3/MiniExercise3.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.bharathairlines.com/Reservation"
+	xmlns:tns="http://www.bharathairlines.com/Reservation">
+
+
+	<include schemaLocation="common.xsd"></include>
+
+	<complexType name="flight">
+		<sequence>
+			<element name="flightNumber" type="tns:stringmax20" />
+			<element name="operatingAirlines"
+				type="tns:operationAirlines" />
+			<element name="arrivalCity" type="tns:stringmax20" />
+			<element name="dateOfDeparture" type="date" />
+			<element name="estimatedTimeOfDeparture" type="time" />
+		</sequence>
+	</complexType>
+
+
+
+	<simpleType name="stringmax20">
+		<restriction base="string">
+			<maxLength value="20"></maxLength>
+		</restriction>
+	</simpleType>
+
+
+	<simpleType name="operationAirlines">
+		<restriction base="string">
+			<enumeration value="US"></enumeration>
+			<enumeration value="American"></enumeration>
+			<enumeration value="Alaska"></enumeration>
+			<enumeration value="SouthWest"></enumeration>
+			<enumeration value="Delta"></enumeration>
+		</restriction>
+	</simpleType>
+
+
+</schema>

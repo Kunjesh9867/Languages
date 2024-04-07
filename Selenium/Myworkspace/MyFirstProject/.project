@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>MyFirstProject</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>drivers/chromedriver.exe</name>
+			<type>1</type>
+			<location>C:/Users/kunje/Desktop/chromedriver_win32/chromedriver.exe</location>
+		</link>
+		<link>
+			<name>drivers/msedgedriver.exe</name>
+			<type>1</type>
+			<location>C:/Users/kunje/Downloads/edgedriver_win64/msedgedriver.exe</location>
+		</link>
+	</linkedResources>
+</projectDescription>

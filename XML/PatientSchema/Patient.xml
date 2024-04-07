@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Patient xmlns:tns="http://www.kunjeshramani.org/Patient" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://www.kunjeshramani.org/Patient Patient.xsd "
+			id="1">
+  
+  
+  
+  <tns:name>Kunjesh</tns:name>
+  <tns:age>0</tns:age>
+  <tns:email>kunj@hotmail.com</tns:email>
+  <tns:gender>M</tns:gender>
+  <tns:phone>1234567890</tns:phone>
+  <tns:phone>1234567890</tns:phone>
+  <tns:phone>1234567890</tns:phone>
+  
+  
+  <tns:paymentType>
+  	<tns:insurance>
+  		<tns:limit>10000</tns:limit>	
+  		<tns:provider>Falcon Co</tns:provider>
+  	</tns:insurance>
+  </tns:paymentType>
+  
+
+  
+</tns:Patient>
