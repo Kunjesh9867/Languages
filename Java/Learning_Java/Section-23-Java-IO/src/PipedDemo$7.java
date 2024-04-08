@@ -60,7 +60,7 @@ class Consumer extends Thread {
 
 
 
-public class PipedDemo {
+public class PipedDemo$7 {
     public static void main(String[] args) throws Exception{
 
         PipedInputStream pis = new PipedInputStream();

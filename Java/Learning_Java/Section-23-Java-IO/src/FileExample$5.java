@@ -3,7 +3,7 @@
 
 import java.io.FileOutputStream;
 
-public class FileExample {
+public class FileExample$5 {
     public static void main(String[] args) {
 
         // All At a time

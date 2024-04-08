@@ -1,7 +1,6 @@
 import java.io.RandomAccessFile;
-import java.sql.SQLOutput;
 
-public class RandomAccessDemo {
+public class RandomAccessDemo$8 {
     public static void main(String[] args) throws Exception {
         RandomAccessFile rf = new RandomAccessFile("G:/My Drive/GitHub/Languages/Java/Learning_Java/Section-23-Java-IO/src/textfiles/randomAccessFile.txt", "rw");
 
@@ -36,7 +35,6 @@ public class RandomAccessDemo {
         System.out.println((char)rf.read());
         System.out.println(rf.getFilePointer());
         rf.seek(rf.getFilePointer() + 2); // From current position
-         
-
+        
     }
 }

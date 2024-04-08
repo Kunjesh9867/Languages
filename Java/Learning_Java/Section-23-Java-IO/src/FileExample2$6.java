@@ -3,10 +3,9 @@
 
 // Reader
 
-import java.io.FileInputStream;
 import java.io.FileReader;
 
-public class FileExample2 {
+public class FileExample2$6 {
     public static void main(String[] args) throws Exception {
 
 

@@ -3,7 +3,7 @@
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 
-public class ByteDemo2 {
+public class ByteDemo2$2 {
     public static void main(String[] args) throws Exception {
 
         // Byte-by-Byte

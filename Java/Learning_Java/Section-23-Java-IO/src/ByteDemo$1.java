@@ -2,7 +2,7 @@
 
 import java.io.ByteArrayInputStream;
 
-public class ByteDemo {
+public class ByteDemo$1 {
     public static void main(String[] args) throws Exception {
 
         // Byte-by-Byte

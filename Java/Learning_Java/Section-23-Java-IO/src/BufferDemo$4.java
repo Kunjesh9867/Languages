@@ -1,9 +1,7 @@
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileReader;
 
-public class BufferDemo {
+public class BufferDemo$4 {
     public static void main(String[] args) throws Exception{
 
         // General
