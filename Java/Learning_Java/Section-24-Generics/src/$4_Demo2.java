@@ -34,7 +34,7 @@ class Demo2<T>{
 }
 
 
-public class $3_Demo2 {
+public class $4_Demo2 {
     public static void main(String[] args) {
 
         Demo2<Integer> demo2 = new Demo2<>();
