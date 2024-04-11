@@ -14,5 +14,5 @@ public class $4_PrirorityQueue {
         System.out.println(p.peek()); // 3
 
         System.out.println(p);
-    } 
+    }
 }
