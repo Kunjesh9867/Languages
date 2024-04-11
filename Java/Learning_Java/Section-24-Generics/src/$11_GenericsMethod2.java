@@ -9,8 +9,6 @@ class MyArr<T> {
     public T[] arrey1(){
         return arr;
     }
-
-
 }
 
 
