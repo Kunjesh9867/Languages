@@ -12,8 +12,7 @@ public class File1 {
         /*
          * We use variables to temporary store data in computer memory's
          * You can declare multiple variables in the same line => not recommended by Mosh
-         *
-         * */
+        */
 
         int myAge = 30;
         int herAge = myAge; // Copying the value of one variable to another
@@ -177,8 +176,14 @@ public class File1 {
          * IMPORTANT:
          * Why we have to use 2 scanner to get 2 outputs
          * if you use 1 scanner then the second time, you ask for input, it get automatically terminated
-         * This is the case if you use two scanner after one another.
-         * Let's say if you put A statement in between the 2 scanner => NO PROBLEM
+         * This is the case if you use two scanner after one another and in NEXLINE() only, others (next, nextInt etc). works fine.
+
+
+         * System.out.println(k1.nextInt());
+         * System.out.println(k1.nextLine());
+         * THIS IS THE SCENARIO. nextLine in 2nd Line
+
+         * * Let's say if you put A statement in between the 2 scanner => NO PROBLEM
          * See below
          * */
 

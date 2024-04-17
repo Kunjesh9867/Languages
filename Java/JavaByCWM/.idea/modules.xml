@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaByCWM.iml" filepath="$PROJECT_DIR$/JavaByCWM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PART2/PART2.iml" filepath="$PROJECT_DIR$/PART2/PART2.iml" />
     </modules>
   </component>
 </project>
