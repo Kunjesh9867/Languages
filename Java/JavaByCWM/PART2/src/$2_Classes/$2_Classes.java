@@ -27,12 +27,24 @@ public class $2_Classes {
 
 
 
-        Employee employee = new Employee();
-        employee.setBaseSalary(2);
-        employee.setHourlyRate(-1);
-        int totalWage = employee.calculateWage(10);
-        System.out.println(totalWage);
+        {
+            Employee employee = new Employee();
+            employee.setBaseSalary(2);
+            employee.setHourlyRate(-1);
+            int totalWage = employee.calculateWage(10);
+            System.out.println(totalWage);
+        }
 
+
+        // Reducing Coupling
+        // We have created "Browser class" and all methods
+        {
+            Browser browser = new Browser();
+
+            // Mosh just change the public fields of browser to private
+            // showing that the private is not accessible, leads to less coupling and less dependency
+
+        }
 
 
     }
